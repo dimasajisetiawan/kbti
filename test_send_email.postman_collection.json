@@ -1,0 +1,87 @@
+{
+	"id": "3c419ea7-40b9-1cdd-71f0-2dabc889cf43",
+	"name": "test_send_email",
+	"description": "",
+	"order": [
+		"c3c79a73-4808-02cd-ca95-534fd1d16a8e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1654389851759,
+	"owner": "15351475",
+	"public": false,
+	"requests": [
+		{
+			"id": "c3c79a73-4808-02cd-ca95-534fd1d16a8e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "kbti.test/api/kirimnotif",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "kode_tugas",
+					"value": "TG4414",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "keterangan",
+					"value": "Tugas ini bersifat kerja kelompok, bobotnya 10%. Penjelasan tugas dapat dilihat pada slide kuliah terakhit ep7_ACM_22.ppt",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tanggal_mulai",
+					"value": "2022-06-05",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "tanggal_selesai",
+					"value": "2022-06-06",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "file_terlampir",
+					"value": "ep7_ACM_22.ppt",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id_daftar_tugas",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1654391470766,
+			"name": "test sent email",
+			"description": "",
+			"collectionId": "3c419ea7-40b9-1cdd-71f0-2dabc889cf43",
+			"responses": []
+		}
+	]
+}
