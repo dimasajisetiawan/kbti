@@ -39,5 +39,7 @@
 <script src="{{ asset('') }}asset/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
 <script src="{{ asset('') }}asset/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
 <script src="{{ asset('') }}asset/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+<script src="{{ asset('') }}asset/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="{{ asset('') }}asset/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>

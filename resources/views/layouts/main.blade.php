@@ -37,5 +37,6 @@
 <!-- ./wrapper -->
 
 @include('layouts.core.script')
+@stack('custom-script')
 </body>
 </html>

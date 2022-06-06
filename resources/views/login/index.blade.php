@@ -12,7 +12,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="/" class="h1"><b>SAW</b>2022</a>
+      <a href="/" class="h1"><b>KBTI</b>2022</a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Sign in to start your session</p>
@@ -32,13 +32,13 @@
       <form action="/" method="post">
         @csrf
         <div class="input-group mb-3">
-          <input type="text" class="form-control @error('username') is-invalid @enderror" placeholder="Username" name="username" autofocus required value="{{ old('username') }}">
+          <input type="text" class="form-control @error('id_user') is-invalid @enderror" placeholder="id_user" name="id_user" autofocus required value="{{ old('id_user') }}">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
             </div>
           </div>
-          @error('username')
+          @error('id_user')
           <div class="invalid-feedback">
               {{ $message }}
           </div>
